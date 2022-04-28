@@ -31,3 +31,7 @@ docker run -it --privileged \
        --env LD_LIBRARY_PATH=/opt/vc/lib:/lib:/usr/lib:/usr/local/lib \
        coral-pose:0.1 \
        /bin/bash```
+Inside of the container run:
+```
+python3 pose_camera.py
+```
